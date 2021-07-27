@@ -1,0 +1,64 @@
+
+body {
+    margin: 2% 20%;
+    background-color: rgb(196, 215, 235);
+}
+
+.dropdowns{
+    margin: 0;
+    padding: 0;
+    background:black;
+}
+
+ul li a {
+   
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.dropdowns li {
+    color: red;
+    float: left;
+    padding: 20px;
+    display: block;
+
+}
+.dropdowns li a:hover{
+    color: black;
+}
+
+.social-media {
+    position: relative;
+}
+
+.dropdown {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: -10px;
+    width: 150px;
+    display: none;
+    background-color: mediumseagreen;
+}
+
+.dropdown li {
+    width: 73%;
+}
+
+.dropdown li:hover {
+  
+background-color: silver;
+}
+.social-media:hover .dropdown{
+    display: block;
+}
+
+p {
+    text-align: justify;
+}
+
+span {
+    background-color: tan;
+}
